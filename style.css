@@ -1,0 +1,54 @@
+#titulo {
+    color: red;
+}
+
+p.texto {
+    color: blue;
+}
+
+p.especial {
+    color: mediumorchid;
+}
+
+div p {
+    color: aquamarine;
+}
+
+div h2, div h3 {
+    color: brown;
+}
+
+* {
+    font-size: 24px;
+    /*color: black;*/
+}
+
+.color {
+    color: #ff0;
+    border: 5px blue solid;
+    border-radius: 5px;
+}
+
+#fondo {
+    background-color: rgba(255, 0, 0);
+    /*opacity: 0.3;
+    background-image: url("");*/
+    height: 300px;
+    background: #f00 url('https://images.pexels.com/photos/13038616/pexels-photo-13038616.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load') repeat-y center bottom / 100px 100px;
+}
+.margen{
+    background: chocolate;
+    margin: 15px;
+    padding: 30px 15px;
+    border: solid 1px black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+.text{
+    font-family: 'DynaPuff', cursive;
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+}
